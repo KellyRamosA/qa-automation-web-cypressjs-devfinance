@@ -5,7 +5,7 @@ describe('Nova transação', () => {
     const transacoes = [
       { descricao: 'Pix', valor: '600', data: '2026-10-25' },
       { descricao: 'Salário', valor: '5000', data: '2026-10-01' },
-      { descricao: 'Aluguel', valor: '-1200', data: '2026-10-05' }
+      { descricao: 'Conta de água', valor: '-1200', data: '2026-10-05' }
     ]
 
     transacoes.forEach((transacao) => {
